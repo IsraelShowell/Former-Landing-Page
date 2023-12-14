@@ -1,67 +1,69 @@
-<!DOCTYPE html><!--Start of the HTML document.-->
-<html lang="en"><!--Sets the language to English-->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"><!--Sets the character set for the site.-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Standard viewport settings.-->
-    <title>QR-Code-Generator</title><!--Titles the webpage-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRCode Generator</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.0/brython.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.0/brython_stdlib.js"></script>
 </head>
-<body>
+<body onload="brython()">
+    <script type="text/python">
 
-    <div>
-        <py-script>
-import tkinter as tk
-from tkinter import messagebox
+        #Creator: Israel Showell
+        #Date Created: 10-11-23
+        #Allows a user to create a QR Code by entering a URL of sorts in the box.
 
-#Imports the qrcode library
-import qrcode as q
+        # Import the tkinter library for GUI
+        import tkinter as tk
+        from tkinter import messagebox
+
+        #Imports the qrcode library
+        import qrcode as q
 
 
-def generateQRCode():
+        def generateQRCode():
     
-    URL = URL_entry.get() #Gets the text stored in the text area
+            URL = URL_entry.get() #Gets the text stored in the text area
     
-    print(URL) #Prints the entered URL. I used this to figure out some odd errors I was
+            print(URL) #Prints the entered URL. I used this to figure out some odd errors I was
     
-    qr = q.QRCode(
-    version=1, #QR Code Version
-    error_correction=q.constants.ERROR_CORRECT_L, #Error correction level (L for low), see documentation of the qrcode library
-    box_size=10, #Size of each "box" or module in the QR code
-    border=4, #Size of the border around the QR code (in modules)
-    )
+            qr = q.QRCode(
+                version=1, #QR Code Version
+                error_correction=q.constants.ERROR_CORRECT_L, #Error correction level (L for low), see documentation of the qrcode library
+                box_size=10, #Size of each "box" or module in the QR code
+                border=4, #Size of the border around the QR code (in modules)
+            )
 
-    #Adds the data to the QR code
-    qr.add_data(URL)
+            #Adds the data to the QR code
+            qr.add_data(URL)
 
-    qr.make(fit=True)
+            qr.make(fit=True)
 
-    # Creates a QR code image
-    img = qr.make_image()
+            # Creates a QR code image
+            img = qr.make_image()
 
-    # Saves the QR code image
-    img.save("QR_Code.png")
-
-
-
-# Creates the main window
-root = tk.Tk()
-root.title("GUI QRCode Generator")  # Sets the window title
-
-# Creates input fields and labels
-URL_label = tk.Label(root, text="Enter your URL:")  # Create a label
-URL_label.pack()  # Packs the label into the window
-URL_entry = tk.Entry(root)  # Creates an input field to enter the a URL
-URL_entry.pack()  # Packs the input field into the window
-
-
-run_button = tk.Button(root, text="Generate QRCode", command=generateQRCode)  # Creates a button that calls the function
-run_button.pack()  # Packs the button into the window
-
-root.mainloop()
-</py-script>
-    </div>
+            # Saves the QR code image
+            img.save("QR_Code.png")
 
 
 
+        # Creates the main window
+        root = tk.Tk()
+        root.title("GUI QRCode Generator")  # Sets the window title
+
+        # Creates input fields and labels
+        URL_label = tk.Label(root, text="Enter your URL:")  # Create a label
+        URL_label.pack()  # Packs the label into the window
+        URL_entry = tk.Entry(root)  # Creates an input field to enter the a URL
+        URL_entry.pack()  # Packs the input field into the window
+
+
+        run_button = tk.Button(root, text="Generate QRCode", command=generateQRCode)  # Creates a button that calls the function
+        run_button.pack()  # Packs the button into the window
+
+        root.mainloop()
+    </script>
 </body>
 </html>
-
