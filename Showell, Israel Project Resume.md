@@ -1,4 +1,4 @@
-﻿**SKILLS
+
 TECHNOLOGY SUMMARY: *Systems:*** Linux-Based Systems, Unix-Based Systems, Windows, Relational Database Management Systems.  ***Networking:*** VPNs, Routers, Firewalls, TCP/IP.  ***Software:*** Visual Studio, Visual Studio Code, Python-Shell, Eclipse, R-Studio, Github, Godot, MS Office (Word, PowerBI, Excel, PowerPoint), Notepad++, Windows Power-Shell. ***Programming Skills:*** Novice at Java, HTML, C, JavaScript, R, COBOL, SQL, Visual Basic, and COBOL. Novice-Advance in Python and C++. **Skills:** Advanced in Microsoft Word and PowerPoint. Advanced knowledge of computer software. Adobe Premiere, Screen Casting, Social Media Management, Live-Streaming, Video Editing, Presentation, IBM Mainframe, Timesheets, Troubleshooting
 
 **Project Experience:
