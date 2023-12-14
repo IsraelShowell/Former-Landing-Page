@@ -1,27 +1,38 @@
-<!DOCTYPE html><!--Start of the HTML document.-->
-<html lang="en"><!--Sets the language to English-->
+<!DOCTYPE html>
+<!--Start of the HTML document.-->
+<html lang="en">
 <head>
-    <meta charset="UTF-8"><!--Sets the character set for the site.-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Standard viewport settings.-->
-    <title>Israel's Portfolio</title><!--Titles the webpage-->
+    <meta charset="UTF-8">
+    <!--Sets the character set for the site.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Standard viewport settings.-->
+    <title>Israel's Portfolio</title>
+    <!--Titles the webpage-->
     <style>
         body {
-            background-color: #DBF9FC; <!--Sets background color for the main body of the webpage.-->
+<!--Sets background color for the main body of the webpage.-->
+            background-color: #DBF9FC; 
         }
 
-        .link { <!--All elements with this class will be given the following CSS properties. This is used on one of the links in this HTML document.-->
+        .link-container {
+            text-align: center; 
+        }
+<!--Sets properties for the link class.-->
+        .link {
             text-decoration: none;
             color: #007BFF;
             text-align: center;
             padding: 20px;
         }
-        .link2 { <!--All elements with this class will be given the following CSS properties. This is used on most of the links in this HTML document.-->
+<!--Sets properties for the link2 class.-->
+        .link2 {
             text-decoration: none;
             color: #007BFF;
             text-align: center;
             padding: 20px;
         }
-        .profile-picture { <!--The picture on the webpage is given the following CSS properties to modify it's appearance.-->
+<!--Sets properties for the profile-picture class.-->
+        .profile-picture {
             border-radius: 30%;
             padding: 5px;
             border: 1px solid black;
@@ -38,13 +49,13 @@
         <!--The above line adds in the picture and declares its width and height.-->
     </div>
 
-</div><hr><div><!--Creates a horizontal line to divide the picture from the links.-->
+    <hr>
 
-<!--The below block of code will display all the links on the same "line" in the HTML document.-->
-    <div>
+    <div class="link-container">
+        <!--The below block of code will display all the links on the same "line" in the HTML document.-->
         <a href="https://github.com/IsraelShowell/IsraelShowell.github.io/blob/bbfd343aa321f012ae19a57411e0f04da1536c0c/Showell%2C%20Israel%20Project%20Resume.md" class="link2">Project Resume</a>
         <a href="https://github.com/IsraelShowell/IsraelShowell.github.io/blob/bbfd343aa321f012ae19a57411e0f04da1536c0c/Showell%2C%20Israel%20Resume.md" class="link">Full Resume</a>
-        <a href="https://www.linkedin.com/in/israel-showell-41519b291/" class="link">Linkedln</a>
+        <a href="https://www.linkedin.com/in/israel-showell-41519b291/" class="link">LinkedIn</a>
     </div>
 
 </body>
