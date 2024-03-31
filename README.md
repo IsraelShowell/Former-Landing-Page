@@ -1,5 +1,6 @@
 # Creator: Israel Showell
-# Date: 10-8-2023
+# Start Date: 10-8-2023
+# End Date: 10-9-2023
 # Project: Personal Github Portfolio
 # Version: 1.00
 
@@ -9,7 +10,7 @@ I make regular updates to my resumes, but the version will change when I make a 
 
 
 # Version History:
-# V-1.00: (Date)
+# V-1.00: (10-8-9-23)
 Initial Version <br>
 Uploaded to Github
 
