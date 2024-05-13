@@ -1,79 +1,30 @@
-<!--Israel Showell-->
-
 <!DOCTYPE html>
-<!--Start of the HTML document.-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--Sets the character set for the site.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Standard viewport settings.-->
     <title>Israel's Portfolio</title>
-    <!--Titles the webpage-->
-    <style>
-    <!--Controls the styling of the webpage-->
-
-        h1 {
-            text-align: center;
-            color: #0034BF;
-            margin: 20px;
-        }
-
-        h2 {
-            text-align: center;
-            color: #0034BF;
-            margin: 20px 0;
-        }
-        
-        body {
-            background-color: #DBF9FC; 
-            margin: 0;
-            padding: 0;
-        }
-
-        .link-container {
-            text-align: center; 
-            margin: 20px 0;
-        }
-        .link {
-            text-decoration: none;
-            color: #007BFF;
-            padding: 10px 20px;
-            display: block;
-            margin: 10px auto;
-            border: 1px solid #007BFF;
-            border-radius: 5px;
-            max-width: 80%;
-        }
-        .profile-picture {
-            border-radius: 50%;
-            padding: 5px;
-            border: 1px solid black;
-            display: block;
-            margin: 20px auto;
-            max-width: 80%;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h2>Hello! My name is Israel Showell!</h2>
-        <h2>Welcome to my portfolio!</h2>
+    <div class="content-container">
+        <div>
+            <h2>Hello! My name is Israel Showell!</h2>
+            <h2>Welcome to my portfolio!</h2>
+        </div>
+        <div class="flip-container">
+            <img src="images/Profile-Picture-Cropped-Flipped.JPG" alt="Picture of Israel Showell" class="profile-picture">
+        </div>
+        <hr>
+        <div class="link-container">
+            <a href="main-resume.html" class="link" target="_blank">Main Resume</a>
+            <a href="Showell, Israel Project Resume.pdf" class="link" target="_blank">Project Resume</a>
+            <a href="Showell, Israel Experience Resume.pdf" class="link" target="_blank">Experience Resume</a>
+            <a href="https://github.com/IsraelShowell" class="link" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/israel-showell-41519b291/" class="link" target="_blank">LinkedIn</a>
+            <a href="https://sisrael.pythonanywhere.com/" class="link" target="_blank">Evaluation of School Courses Web Application</a>
+        </div>
     </div>
-    <div>
-        <img src="Profile-Picture-Cropped.JPG" alt="Picture of Israel Showell" class="profile-picture" width="450" height="500">
-        <!--The above line adds in the picture and declares its width and height.-->
-    </div>
-
-    <hr>
-
-    <div class="link-container">
-        <!--The below block of code will display all the links on the same "line" in the HTML document.-->
-        <a href="https://github.com/IsraelShowell/IsraelShowell.github.io/blob/main/Showell%2C%20Israel%20Resume.pdf" class="link" target="_blank">Main Resume</a>
-        <a href="https://github.com/IsraelShowell/IsraelShowell.github.io/blob/main/Showell%2C%20Israel%20Project%20Resume.pdf" class="link" target="_blank">Project Resume</a>
-        <a href="https://github.com/IsraelShowell/IsraelShowell.github.io/blob/main/Showell%2C%20Israel%20Experience%20Resume.pdf" class="link" target="_blank">Experience Resume</a>
-        <a href="https://www.linkedin.com/in/israel-showell-41519b291/" class="link" target="_blank">LinkedIn</a>
-    </div>
-
 </body>
 </html>
