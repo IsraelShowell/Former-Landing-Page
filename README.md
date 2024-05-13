@@ -18,7 +18,9 @@ Uploaded to Github
 # V-1.10: (5-13-24)
 Improved UI <br>
 Picture Rotates Now <br>
-PDFs are now embedded into the site now
+PDFs are now embedded into the site now <br>
+CSS is now in a seperate file <br>
+Javascript being prepared to be added in
 
 # Current Features as of V-1.10:
 The page currently links to my resumes and Linkedln and displays a picture of me in a suit
