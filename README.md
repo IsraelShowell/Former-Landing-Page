@@ -7,7 +7,7 @@
 # Description:
 This is my repository for my Github Pages website! I use this to link my projects and resumes in one place!
 I make regular updates to my resumes, but the version will change when I make a major change to the website later.
-
+Link to the site: https://israelshowell.github.io/
 
 # Version History:
 # V-1.00: (10-8-9-23)
