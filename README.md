@@ -16,8 +16,8 @@ Uploaded to Github
 
 # Version History:
 # V-1.10: (5-13-24)
-Improved UI
-Picture Rotates Now
+Improved UI <br>
+Picture Rotates Now <br>
 PDFs are now embedded into the site now
 
 # Current Features as of V-1.10:
