@@ -11,6 +11,8 @@ body {
 
 .content-container {
     text-align: center;
+    width: 90%;
+    max-width: 600px;
 }
 
 @keyframes rotateSlowly {
@@ -33,7 +35,6 @@ body {
     animation: rotateSlowly 10s linear infinite;
 }
 
-
 .profile-picture:hover {
     transform: rotateY(180deg);
 }
@@ -50,6 +51,7 @@ body {
     margin: 10px;
     border: 1px solid #007BFF;
     border-radius: 5px;
+    display: inline-block;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -61,4 +63,19 @@ body {
 h2 {
     color: #0034BF;
     margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+    .link {
+        padding: 8px 16px;
+        margin: 5px;
+        width: calc(100% - 22px); /* Adjust width to fit container */
+        box-sizing: border-box;
+    }
+
+    .link-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
