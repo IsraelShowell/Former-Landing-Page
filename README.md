@@ -24,7 +24,8 @@ Javascript being prepared to be added in
 
 # Version History:
 # V-2.00: (On the way!)
-I am preparing to publish the second version of my portfoilo! 
+I am preparing to publish the second version of my portfoilo! <br>
+I will provide the link to the new landing page soon!
 
 # Current Features as of V-1.10:
 The page currently links to my resumes and Linkedln and displays a picture of me in a suit
