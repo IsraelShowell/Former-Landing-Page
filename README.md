@@ -22,6 +22,10 @@ PDFs are now embedded into the site now <br>
 CSS is now in a seperate file <br>
 Javascript being prepared to be added in
 
+# Version History:
+# V-2.00: (On the way!)
+I am preparing to publish the second version of my portfoilo! 
+
 # Current Features as of V-1.10:
 The page currently links to my resumes and Linkedln and displays a picture of me in a suit
 
